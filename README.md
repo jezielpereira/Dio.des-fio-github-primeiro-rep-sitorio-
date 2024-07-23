@@ -1,4 +1,14 @@
-# Desafio Git/GitHub Dio
-Repositorio do desafio de projeto do Git/GitHub
-## "Links Úteis"
-[sintaxe basica Markdown](https://www.markdownguide.org)
+#Dio estrutura_ condicional 
+saldo = 5000
+limite = 2000
+print('Saldo: {} \nlimite: {}'.format(saldo, limite))
+saque = float(input('Informe o valor do saque:'))
+
+if saldo + limite >= saque:
+    print('Realizando Saque!')
+    
+if saldo + limite < saque:
+    print('Saldo insuficiente!')
+    
+if saldo + limite - saque:
+    print('saldo: {} \nlimite:{}'.format(saldo - saque, limite))
