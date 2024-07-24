@@ -1,0 +1,12 @@
+nome=str(input('Nome do Aluno?'))
+n1 = float(input('Digite a nota da n1:'))
+n2 = float(input('Digite a nota da n2:'))
+n3 = float(input('Digite a nota da n3:'))
+media = (n1+n2+n3)/3
+print('A média do Aluno {} é {}'.format(nome, media))
+if media >= 5:
+    print('APROVADO')
+    
+if media < 5:
+    print('REPROVADO')
+        
